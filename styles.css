@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana;
  }
 
  body {
@@ -12,11 +12,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(209,227,247,1) 100%);
+    
 }
 
 /* Header styles */
 #header {
-    background-color: #343a40;
+    background: rgb(73,20,85);
+    background: linear-gradient(90deg, rgba(73,20,85,1) 0%, rgba(31,0,32,1) 100%);
     color: #ffffff;
     padding: 20px 0;
 }
@@ -37,7 +41,8 @@ nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #343a40;
+    background: rgb(73,20,85);
+    background: linear-gradient(90deg, rgba(73,20,85,1) 0%, rgba(31,0,32,1) 100%);
     position: fixed;
     top: 0;
     left: -200px;
@@ -60,17 +65,18 @@ nav {
 }
 
 .fa-bars {
-
+    color: rgb(191, 5, 238);
     font-size: 24px;
     cursor: pointer;
 }
 .fa-user {
-
+    color: rgb(191, 5, 238);
     font-size: 24px;
     cursor: pointer;
 }
 
 .fa-arrow-up-right-from-square{
+    color: rgb(191, 5, 238);
     font-size: 24px;
     cursor: pointer;
     padding: 10px;
@@ -93,7 +99,7 @@ nav {
 }
 
 .header-text span {
-    color: #007bff;
+    color: rgb(191, 5, 238);
 }
 
 /* About section styles */
@@ -112,7 +118,7 @@ nav {
 }
 
 .sub-title {
-    color: #007bff;
+    color: rgb(191, 5, 238);
     font-size: 28px;
     margin-bottom: 20px;
 }
@@ -141,7 +147,8 @@ nav {
 
 .active-link {
     font-weight: bold;
-    color: #007bff;
+  color: rgb(155, 5, 192);
+   color: linear-gradient(90deg, rgba(93,3,115,1) 0%, rgba(222,4,228,1) 90%);
 }
 
 .active-tab {
@@ -233,7 +240,8 @@ ul li {
 
 /* Contact section styles */
 #contact {
-    background-color: #343a40;
+    background: rgb(73,20,85);
+    background: linear-gradient(90deg, rgba(73,20,85,1) 0%, rgba(31,0,32,1) 100%);
     color: #ffffff;
     padding: 50px 0;
 }
@@ -269,12 +277,13 @@ ul li {
     padding: 10px;
     border: 1px solid #ffffff;
     border-radius: 8px;
-    background-color: #343a40;
+    background: rgb(216, 118, 238);
+    background: linear-gradient(90deg, rgba(73,20,85,1) 0%, rgba(31,0,32,1) 100%);
     color: #ffffff;
 }
 
 .contact-right button {
-    background-color: #007bff;
+    background-color: rgb(247, 5, 247);
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -285,7 +294,8 @@ ul li {
 
 /* Copyright section styles */
 .copyright {
-    background-color: #292b2c;
+    background: rgb(33,1,41);
+    background: linear-gradient(90deg, rgba(33,1,41,1) 0%, rgba(82,1,85,1) 100%);
     color: #ffffff;
     text-align: center;
     padding: 10px 0;
@@ -302,17 +312,25 @@ ul li {
 
 
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(241, 231, 235);
+    background: radial-gradient(circle, rgb(245, 197, 217) 0%, rgb(243, 245, 247) 100%);
+    box-shadow: 0 0 6px rgba(138, 2, 138, 0.8);
+
+    
+ 
     transition: transform 0.3s;
     
 }
 
 .card:hover {
+    border-bottom: 4px solid #ff0af3;
     transform: scale(1.05);
+    
 }
 
 .btn-primary {
-    background-color: #007bff;
+    background: rgb(224,6,226);
+    background: linear-gradient(90deg, rgba(224,6,226,1) 0%, rgba(122,5,167,1) 72%);
     color: #fff;
     border: none;
     padding: 8px 16px;
@@ -324,7 +342,8 @@ ul li {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background: rgb(93,3,115);
+background: linear-gradient(90deg, rgba(93,3,115,1) 0%, rgba(222,4,228,1) 90%);
 }
 
 
