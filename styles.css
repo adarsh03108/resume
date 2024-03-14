@@ -53,6 +53,7 @@ nav {
     align-items: flex-end;
     padding-top: 50px;
     transition: 0.5s;
+ z-index:10000;
 }
 
 #sidemenu li {
